@@ -1,0 +1,251 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(212, 216, 255);
+}
+.start-btn{
+    height: 90px;
+    width: 210px;
+    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(101, 116, 255);
+    font-weight: bolder;
+}
+.start-btn:hover{
+    background-color: rgb(84, 101, 255);
+}
+.quiz-instruction{
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    display: none;
+}
+.quiz-instruction .header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    height: 20%;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-left: 5%;
+}
+.instructions{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5%;
+    height: 60%;
+}
+.instruction{
+    font-size: 27px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-top: 1px solid rgb(199, 199, 199);
+    height: 20%;
+    gap: 10px;
+    padding: 0 5% 0 5%;
+}
+.button{
+    height: 60%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.exit-quiz{
+    background-color: white;
+    border: 1px solid rgb(101, 116, 255);
+    color: rgb(101, 116, 255);
+}
+.exit-quiz:hover{
+    border: 1px solid rgb(0, 26, 255);
+    color: rgb(0, 26, 255);
+}
+.continue{
+    background-color: rgb(101, 116, 255);
+    color: white;
+}
+.continue:hover{
+    background-color: rgb(46, 67, 255);
+}
+.questions-container{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 50%;
+    background-color: white;
+    display:none;
+}
+.questions-container .header{
+    display: flex;
+    align-items: center;
+    height: 15%;
+    font-size: 40px;
+    font-weight: bolder;
+    padding:0 5% 0 5%;
+    justify-content: space-between;
+}
+.progress-bar{
+    height: 5px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    border-width: 3px;
+}
+.progress{
+    background-color: rgb(48, 69, 255);
+    height: 80%;
+    border-radius:0 50px 50px 0 ;
+}
+.time-details{
+    height: 75%;
+    width: 25%;
+    font-size: 30px;
+    background-color: rgb(165, 174, 255) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 2px 0 2px;
+    gap: 10px;
+    font-weight: lighter;
+}
+.time-seconds{
+    height: 80%;
+    width: 30%;
+    background-color: rgb(48, 48, 48);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-size: 35px;
+}
+.question-container{
+    height: 70%;
+}
+.questions-div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 27px;
+    padding: 5%;
+}
+.option{
+    height: 15%;
+    background-color: rgb(196, 196, 255);
+    border-radius: 15px;
+    font-weight: lighter;
+    padding: 0 5% 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(118, 118, 255);
+}
+.option:hover{
+    background-color: rgb(154, 154, 255);
+}
+.option img{
+    height: 50px;
+    width: 50px;
+}
+.next-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 20%;
+    background-color: rgb(111, 111, 255);
+    border-radius: 5px;
+    color: white;
+    display: none;
+}
+.next-btn:hover{
+    background-color: rgb(74, 74, 255);
+}
+.questions-footer{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgb(199, 199, 199);
+    border-width: 3px;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 0 5% 0 5%;
+    font-weight: bold;
+}
+.completed{
+    display: flex;
+    flex-direction: column;
+    padding:5%;
+    height: 40%;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    gap: 20px;
+    display: none;
+}
+.completedIcon{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.completed-icon{
+    height: 100%;
+    width: 50%;
+    margin: 0%;
+}
+.completed-message{
+    height: 25%;
+    font-size: 30px;
+    text-align: center;
+}
+.buttons1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    gap: 10px;
+    width: 100%;
+}
+.buttons1 .button{
+    width: 40%;
+    height: 80%;
+}
+.replay-btn{
+    background-color: white;
+    border: 1px solid rgb(101, 116, 255);
+    color: rgb(101, 116, 255);
+}
+.replay-btn:hover{
+    border: 1px solid rgb(0, 26, 255);
+    color: rgb(0, 26, 255);
+}
+.quit-btn{
+    background-color: rgb(101, 116, 255);
+    color: white;
+}
+.quit-btn:hover{
+    background-color: rgb(46, 67, 255);
+}

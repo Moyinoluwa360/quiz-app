@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Osamos quiz app</title>
+</head>
+<body>
+    <div class="start-btn">
+        Start quiz
+    </div>
+    <div class="quiz-instruction">
+        <div class="header">Some rules of this quiz</div>
+        <div class="instructions">
+            <span class="instruction">1. You will have only 15 seconds per each question</span>
+            <span class="instruction">2. Once you select your answer it can't be undone</span>
+            <span class="instruction">3. You can't select any option once time goes off</span>
+            <span class="instruction">4. You can't exit the from Quiz while you're playing</span>
+            <span class="instruction">5. You'll get points on the basis of your correct answer</span>
+        </div>
+        <div class="buttons">
+            <div class="exit-quiz button">Exit Quiz</div>
+            <div class="continue button">Continue</div>
+        </div>
+    </div>
+    <div class="questions-container">
+        <div class="header">
+            <span>Osamos Quiz Application</span>
+            <div class="time-details">
+                <span class="time-up">Time left</span>
+                <span class="time-seconds">15</span>
+            </div>
+        </div>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+        <div class="question-container"></div>
+        <div class="questions-footer">
+            <div class="questions-number"><span class="question-page">1</span> of 50 questions</div>
+            <div class="next-btn">Next Que</div>
+        </div>  
+    </div>
+    <div class="completed">
+        <div class="completedIcon">
+            <img src="./completed.svg" alt="completed icon" class="completed-icon">
+        </div>
+        <div class="completed-message">
+            You've completed the Quiz and nice, you got 
+            <span class="score">2</span> out of 50.
+        </div>
+        <div class="buttons1">
+            <div class="replay-btn button">Replay Quiz</div>
+            <div class="quit-btn button">Quit Quiz</div>
+        </div>
+    </div>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
