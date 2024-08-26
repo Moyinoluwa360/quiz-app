@@ -1,2 +1,2 @@
 ﻿# quiz-app
-Assignment submition for quiz app by Ogundana Joseph Moyinilouwa
+Assignment submission for quiz app by Ogundana Joseph Moyinoluwa
